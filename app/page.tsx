@@ -1,7 +1,7 @@
 'use client'
 import { useEffect, useRef, useState } from 'react'
 import clsx from 'clsx'
-import ScriptCanvas from '@/components/ScriptCanvas'
+import ScriptCanvas from '../components/ScriptCanvas'
 
 type Msg = { role: 'user'|'assistant', content: string }
 
