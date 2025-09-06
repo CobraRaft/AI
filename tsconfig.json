@@ -13,8 +13,8 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": ".",                    // <-- add this
-    "paths": { "@/*": ["./*"] }        // <-- and this
+    "baseUrl": ".",                // enable root-relative imports
+    "paths": { "@/*": ["./*"] }    // map @/ to project root
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
