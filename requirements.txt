@@ -1,0 +1,19 @@
+# Node.js runtime
+node >=20.0.0
+npm >=9.0.0
+
+# Dependencies (from package.json)
+next==14.2.5
+react==18.3.1
+react-dom==18.3.1
+clsx==2.1.1
+@monaco-editor/react==4.6.0
+
+# Optional: Tailwind (for styling, via dev deps)
+tailwindcss==3.4.10
+postcss==8.4.41
+autoprefixer==10.4.19
+
+# For self-hosted AI
+Docker (latest)
+Ollama (https://ollama.com)
